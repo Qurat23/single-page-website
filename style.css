@@ -1,0 +1,103 @@
+#list
+{
+    list-style: none;display: flex;flex-direction: row;margin-right:10px;
+ }
+#mono
+{
+	text-shadow: 2px 2px 1px gray;color: black;border: 2px solid black ;border-radius:20px;background-color: lightblue;font-weight: bold;margin-top: 20px;
+}
+#left1
+{
+	width: 23%;height: 270px;float:left;
+}
+#left2
+{
+	width: 23%;height: 270px;float:left;border: solid ;
+	
+}
+#left2:hover
+{
+    background:linear-gradient(to left,#DEB887,#5F9EA0);font-weight: bold;text-transform:uppercase;
+}
+#right1
+{
+	width: 23%;height: 270px;float:left;border: solid ;
+    
+}
+#right1:hover
+{
+   background:linear-gradient(to right,#DEB887,#5F9EA0);font-weight:bold; text-transform:uppercase;
+}
+#right2
+{
+	width: 23%;height: 270px;float:left;
+}
+div marquee:hover
+{
+	color: #00008B;
+}
+
+form
+{
+	text-align: center;
+}
+div
+{
+margin: 0.8%;
+}
+#im
+{
+	display: block;
+}
+.sam
+{
+	animation:blinker 0.3s linear infinite; color:red;
+}
+@keyframes blinker
+{
+    50%{opacity: 0;}
+}
+.text
+{
+	font-size: 20px;
+}
+.icon
+{
+	margin:1%;
+}
+#top
+{
+	margin-left:42%;font-size: 30px;
+}
+.diff
+{
+    color:brown;text-align: center;text-decoration: underline;text-transform:uppercase;font-style:italic;background-color: lightpink;	
+}
+body
+{
+	background: linear-gradient(to right,#8FBC8F ,cornsilk);
+}
+header
+{
+	height: 40px;
+}
+h1
+{
+	color:green;text-align: center;text-decoration: underline;text-transform: uppercase;font-weight: bold;background-color: lightgreen;
+}
+p
+{
+	text-align: justify;font-size: 20px;
+}
+img
+{
+	height: 150px;width: 15%;border-radius: 100px;margin: 8px;
+}
+button
+{
+	font-size: 12px;background:linear-gradient(to right,#DCDCDC,#E9967A);text-transform: uppercase;
+}
+button:hover
+{
+    background:linear-gradient(to left,#CD5C5C,#4B0082);text-decoration:underline;font-weight:bold;color:#DCDCDC;
+}
